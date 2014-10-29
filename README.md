@@ -14,5 +14,9 @@ http://www.springframework.org/schema/task/spring-task.xsd
 	
 	<context:component-scan base-package="com.meteor.controller" />
 	<task:annotation-driven/>
+	===================
+	##JAVA
+@Scheduled(fixedDelay=3000)
+	public void Scheduled(){
 	
-	@Scheduled(fixedDelay=3000)
+=======================
